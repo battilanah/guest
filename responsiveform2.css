@@ -1,0 +1,40 @@
+h2{
+    font-size:16px;
+}
+p{
+    font-size:14px;
+}
+label{
+    font-size:12px;
+}
+input[type=submit]{
+    padding:5px;
+}
+input[type=text]{
+    padding: 8px;
+}
+input[type=password]{
+    padding: 8px;
+}
+div#envelope{
+    width: 90%;
+    margin: 10px 10% 10px 11%;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #34495E;
+    border-radius: 1px;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box ;
+    width: 15px;
+    height: 30px;
+    border-width: 0;
+    transition: all .3s linear;
+}
+input[type="checkbox"]:checked{
+    background-color: #2ECC71;
+}

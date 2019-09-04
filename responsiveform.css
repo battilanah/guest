@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+html,body {
+    height:100%;width:100% }
+
+body {
+    background: url('main.png') no-repeat center center fixed;
+
+    background-size: cover;
+    /* For older browsers */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    min-height:800px;}
+div#envelope{
+    width: 55%;
+    margin: 10px 10% 10px 10%;
+    padding:0px 0;
+    border: 2px solid gray;
+    border-radius:10px;
+}
+form{
+    width:70%;
+    margin:4% 15%;
+}
+header{
+    background-color: #4180C5;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    margin-top: -11px;
+    margin-bottom: 1px;
+    border-radius: 10px 10px 0 0;
+    color: aliceblue;
+}
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input[type=text]{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:100%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid #7ac9b7;
+}
+input[type=password]{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width:100%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid #7ac9b7;
+
+}
+input[type=submit]
+{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px ;
+    width:100%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid #7ac9b7;
+    background-color: #4180C5;
+    color: aliceblue;
+    font-size:15px;
+    cursor:pointer;
+    display: inline-block}
+
+button {
+    margin-bottom: 20px;
+   margin-left: 10px;
+    width:40%;
+    padding: 15px;
+    border-radius:5px;
+    border:1px solid #7ac9b7;
+    background-color: #4180C5;
+    color: aliceblue;
+    font-size:15px;
+    cursor:pointer;
+    display: inline-block;
+}
+#submit:hover
+{
+    background-color: black;
+
+}
+div#validation.button{
+    float: left;
+}
+div#validation.submit{
+    float: left;
+}
+textarea{
+    width:100%;
+    padding: 15px;
+    margin-top: 10px;
+    border:1px solid #7ac9b7;
+    border-radius:5px;
+    margin-bottom: 20px;
+    resize:none;
+}
+input[type=text]:focus,textarea:focus {
+    border-color: #4697e4;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #34495E;
+    border-radius: 1px;
+    box-sizing: border-box;
+    position: relative;
+    box-sizing: content-box ;
+    width: 15px;
+    height: 30px;
+    border-width: 0;
+    transition: all .3s linear;
+}
+input[type="checkbox"]:checked{
+    background-color: #2ECC71;
+}
